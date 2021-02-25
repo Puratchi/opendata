@@ -64,20 +64,8 @@ var Strava = 'https://heatmap-external-b.strava.com/tiles/all/bluered/{z}/{x}/{y
 var StravaRun = 'https://heatmap-external-b.strava.com/tiles/run/bluered/{z}/{x}/{y}.png?v=19';
 //'Strava Run', 'OpenStreetMap contributors, CC-BY-SA', 
 
-//Open Weather/////////////////////////////////////////////////////////
-var OpenWthrTemp = 'http://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?APPID=1c3e4ef8e25596946ee1f3846b53218a'; 
-//'Open Weather Map Temperature', 'Map tiles by OpenWeatherMap, under CC BY-SA 4.0', 
-var OpenWthrCloud = 'http://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?APPID=ef3c5137f6c31db50c4c6f1ce4e7e9dd';
-//'Open Weather Map Clouds', 'Map tiles by OpenWeatherMap, under CC BY-SA 4.0', 
-var OpenWthrWind = 'http://tile.openweathermap.org/map/wind_new/{z}/{x}/{y}.png?APPID=f9d0069aa69438d52276ae25c1ee9893'; 
-//'Open Weather Map Wind Speed', 'Map tiles by OpenWeatherMap, under CC BY-SA 4.0', 
-
 //Carto DB/////////////////////////////////////////////////////////
 var CartoDBDark = 'http://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';
 //  'CartoDb Dark Matter', 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.', 
 var CartoDBPositron = 'http://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png';
 //'CartoDb Positron', 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.', 
-
-//Bing//////////////////////////////////////////////////////////
-var bingearth = 'http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1';
-//'Bing VirtualEarth',
