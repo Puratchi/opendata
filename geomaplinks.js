@@ -45,6 +45,3 @@ var OpenWthrWind    = 'http://tile.openweathermap.org/map/wind_new/{z}/{x}/{y}.p
 //Carto DB/////////////////////////////////////////////////////////
 var CartoDBDark     = 'http://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png';//  'CartoDb Dark Matter', 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.', 
 var CartoDBPositron = 'http://basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png'; //'CartoDb Positron', 'Map tiles by CartoDB, under CC BY 3.0. Data by OpenStreetMap, under ODbL.', 
-
-//Bing//////////////////////////////////////////////////////////
-var bingearth       = 'http://ecn.t3.tiles.virtualearth.net/tiles/a{q}.jpeg?g=1';//'Bing VirtualEarth',
